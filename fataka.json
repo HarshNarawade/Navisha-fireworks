@@ -1,0 +1,222 @@
+[
+    {
+        "NAME ":"SPARKLERS  9 CM",
+        "CODE NO":1,
+        "AMOUNT ":"10 RS ( 1 PKT )"
+    },
+    {
+        "NAME ":"FANCY SPARKLERS 12 CM ( COLOUR )",
+        "CODE NO":2,
+        "AMOUNT ":"40 RS  ( 1 PKT )"
+    },
+    {
+        "NAME ":"FANCY SPARKLERS 15 CM ( COLOUR )",
+        "CODE NO":3,
+        "AMOUNT ":"80 RS ( 1PKT )"
+    },
+    {
+        "NAME ":"FLOWER POT SPECIAL ",
+        "CODE NO":4,
+        "AMOUNT ":"170  RS ( 1 BOX )   INSIDE 10 PC."
+    },
+    {
+        "NAME ":"FLOWER POT BIG",
+        "CODE NO":5,
+        "AMOUNT ":"110 RS  ( 1 BOX )  INSIDE  10 PC."
+    },
+    {
+        "NAME ":"FLOWER POT GIANT ( BIG SIZE ) ",
+        "CODE NO":6,
+        "AMOUNT ":"400 RS  ( 1 BOX ) INDISE 10 PC."
+    },
+    {
+        "NAME ":"COLOER FLOWER GIANT ( BIG SIZE ) ",
+        "CODE NO":7,
+        "AMOUNT ":"600 RS ( 1 BOX ) INSIDE 10 PC."
+    },
+    {
+        "NAME ":"FLOWER MULTI COLOUR ( BIG SIZE )",
+        "CODE NO":8,
+        "AMOUNT ":"600 RS( 1 BOX ) INSIDE 5 PC."
+    },
+    {
+        "NAME ":"TRI COLOUR CRACKLING ( BIG SIZE ) ",
+        "CODE NO":9,
+        "AMOUNT ":"800 RS  ( 1 BOX ) INSIDE 5 PC"
+    },
+    {
+        "NAME ":"JUMBO DELUXE POTS ",
+        "CODE NO":10,
+        "AMOUNT ":"1000 ( 1 BOX ) INSIDE  10 PC."
+    },
+    {
+        "NAME ":"GROUND CHAKKAR BIG ",
+        "CODE NO":11,
+        "AMOUNT ":"150 RS ( 1 BOX ) INSIDE 25 PC"
+    },
+    {
+        "NAME ":"SUPER SPECIAL CHAKKAR",
+        "CODE NO":12,
+        "AMOUNT ":"160 RS ( 1 BOX ) INSIDE 10 PC."
+    },
+    {
+        "NAME ":"CARTOON BEN 10 ",
+        "CODE NO":13,
+        "AMOUNT ":"100 ( 1 BOX ) INSIDE  25 PC"
+    },
+    {
+        "NAME ":"MERCURY CHIT PUT ",
+        "CODE NO":14,
+        "AMOUNT ":"120 RS ( 1 BOX ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"MERCURY LIGHT",
+        "CODE NO":15,
+        "AMOUNT ":"90 RS ( 1 BOX ) INSIDE 6 PC"
+    },
+    {
+        "NAME ":"KIT KAT FANCY",
+        "CODE NO":16,
+        "AMOUNT ":"80 RS ( 1BOX ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"MERCURY COLOUR CHANGING BUTTERFLY FANCY",
+        "CODE NO":17,
+        "AMOUNT ":"200 RS ( 1 BOX ) INSIDE 20 PC"
+    },
+    {
+        "NAME ":"FANCY LAZER SHOW",
+        "CODE NO":18,
+        "AMOUNT ":"250 RS ( 1 BOX ) INSIDE 5 PC"
+    },
+    {
+        "NAME ":"BIJILI CRACKERS",
+        "CODE NO":19,
+        "AMOUNT ":"45 RS ( 1 PKT ) INSIDE 50 PC"
+    },
+    {
+        "NAME ":"TAJ GIANT CRACKERS ",
+        "CODE NO":20,
+        "AMOUNT ":"50 RS ( 1 PKT )"
+    },
+    {
+        "NAME ":"TIGER GIANT CRACKERS",
+        "CODE NO":21,
+        "AMOUNT ":"80 RS ( 1 PKT )"
+    },
+    {
+        "NAME ":"MONKEY SPINNER FANCY ITEAM",
+        "CODE NO":22,
+        "AMOUNT ":"180 RS ( 1 BOX ) INSIDE 6 PC "
+    },
+    {
+        "NAME ":"CHHOTA BHEEM BOMB",
+        "CODE NO":23,
+        "AMOUNT ":"25 RS ( 1 PKT ) INSIDE 5 PC "
+    },
+    {
+        "NAME ":"PARROT BOMB",
+        "CODE NO":24,
+        "AMOUNT ":"30 RS ( 1 PKT ) INSIDE 5 PC"
+    },
+    {
+        "NAME ":"BULLET BOMB",
+        "CODE NO":25,
+        "AMOUNT ":"40 RS( 1 PKT ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"RED GIANT 100 ",
+        "CODE NO":26,
+        "AMOUNT ":"60 RS ( 1 PKT ) INSIDE 100 PC)"
+    },
+    {
+        "NAME ":"2 TWO SOUND SHOTS",
+        "CODE NO":27,
+        "AMOUNT ":"60 RS ( 1 PKT ) INSIDE 5 PC)"
+    },
+    {
+        "NAME ":"3 THREE SOUND SHOTS",
+        "CODE NO":28,
+        "AMOUNT ":"75 RS ( 1 PKT ) INSIDE 5 PC"
+    },
+    {
+        "NAME ":"7 SHOTS MERCURY FANCY",
+        "CODE NO":29,
+        "AMOUNT ":"210 RS ( 1 PKT ) INSIDE 5 PC"
+    },
+    {
+        "NAME ":"MERCURY PENTA COLOURS DROPS",
+        "CODE NO":30,
+        "AMOUNT ":"250 RS ( 1 BOX ) INSIDE 5 PC"
+    },
+    {
+        "NAME ":"ALL TIME CHOICE RED&GREEN , GLOD,WHITE",
+        "CODE NO":31,
+        "AMOUNT ":"250 RS ( 1 BOX ) INSIDE 3 PC"
+    },
+    {
+        "NAME ":"MERCURY AIR GEL",
+        "CODE NO":32,
+        "AMOUNT ":"600 RS ( 1BOX ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"SPINNER SUPER DELUXE CHAKKRA BIG SIZE ",
+        "CODE NO":33,
+        "AMOUNT ":"210RS ( 1 PKT ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"DRONE FANCY ",
+        "CODE NO":34,
+        "AMOUNT ":"180 RS ( 1 BOX ) INSIDE 5 PC "
+    },
+    {
+        "NAME ":"ROCKET BOMB",
+        "CODE NO":35,
+        "AMOUNT ":"120 RS ( 1 BOX ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"WHISTLING MERCURY ROCKET ",
+        "CODE NO":36,
+        "AMOUNT ":"300 RS ( 1 BOX ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"GREEN ATOM BOMB ",
+        "CODE NO":37,
+        "AMOUNT ":"120 RS ( 1 BPX ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"SUPERMAN SKY SHOTS 1 PAIR",
+        "CODE NO":38,
+        "AMOUNT ":"160 RS "
+    },
+    {
+        "NAME ":"SUPERMAN SKY SHOTS 2 PAIR",
+        "CODE NO":39,
+        "AMOUNT ":"330 RS "
+    },
+    {
+        "NAME ":"SKY KILLER SHOT 3 PAIR",
+        "CODE NO":40,
+        "AMOUNT ":"550 RS"
+    },
+    {
+        "NAME ":"LOGAN SKY SHOTS JAMBO 2 PIC",
+        "CODE NO":41,
+        "AMOUNT ":"1100 RS"
+    },
+    {
+        "NAME ":"SUPREME SKY GARDEN JAMBO ",
+        "CODE NO":42,
+        "AMOUNT ":"2200\/-"
+    },
+    {
+        "NAME ":"PANCIL FANCY  15 CM",
+        "CODE NO":43,
+        "AMOUNT ":"100 RS ( 1 PKT ) INSIDE 10 PC"
+    },
+    {
+        "NAME ":"POP POP ANGRY BIRDS",
+        "CODE NO":44,
+        "AMOUNT ":"10 RS ( 1 PKT )"
+    }
+]

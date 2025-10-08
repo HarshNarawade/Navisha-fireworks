@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diwali Fireworks Menu</title>
+
+  <style>
+    /* ---------- BASE STYLES ---------- */
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at top, #fff7e6, #ffe6b3, #ffd480);
+      overflow-x: hidden;
+      color: #333;
+      animation: bgGlow 10s ease-in-out infinite alternate;
+    }
+
+    @keyframes bgGlow {
+      from { background: radial-gradient(circle at top, #fff7e6, #ffe6b3, #ffd480); }
+      to { background: radial-gradient(circle at top, #fff5cc, #ffd699, #ffbf40); }
+    }
+
+    /* ---------- HEADER ---------- */
+    header {
+      text-align: center;
+      background: linear-gradient(90deg, #ff9933, #ff6600);
+      color: #fff;
+      padding: 1.5rem 1rem;
+      position: relative;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin: 0;
+      letter-spacing: 1px;
+      text-shadow: 0 0 8px #fff3c2, 0 0 14px #ffd966;
+      animation: flicker 3s infinite;
+    }
+
+    @keyframes flicker {
+      0%, 100% { opacity: 1; text-shadow: 0 0 10px #fff7b3, 0 0 20px #ff9933; }
+      50% { opacity: 0.8; text-shadow: 0 0 6px #ffcc66; }
+    }
+
+    /* ---------- TABLE CONTAINER ---------- */
+    main {
+      max-width: 95%;
+      margin: 1rem auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      overflow-x: auto;
+      padding: 0.5rem;
+      position: relative;
+    }
+
+    /* ---------- TABLE ---------- */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      overflow: hidden;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: linear-gradient(90deg, #ffcc66, #ff9933);
+      color: #fff;
+      padding: 0.8rem;
+      text-shadow: 0 0 6px rgba(0,0,0,0.2);
+      font-size: 0.9rem;
+    }
+
+    td {
+      padding: 0.8rem;
+      border-bottom: 1px solid #f0e3c2;
+      font-size: 0.85rem;
+    }
+
+    input[type="number"] {
+      width: 60px;
+      padding: 4px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    tr {
+      transition: all 0.3s ease;
+    }
+
+    tr:hover {
+      background: #fff7d1;
+      transform: scale(1.02);
+      box-shadow: 0 0 10px rgba(255, 204, 102, 0.5);
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer {
+      text-align: center;
+      color: #555;
+      font-size: 0.9rem;
+      padding: 1rem 0;
+      margin-top: 1rem;
+    }
+
+    footer p {
+      animation: glowText 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glowText {
+      from { text-shadow: 0 0 5px #ffd966; }
+      to { text-shadow: 0 0 20px #ff6600; }
+    }
+
+    /* ---------- SPARKLES EFFECT ---------- */
+    .sparkle {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: #fff7c4;
+      border-radius: 50%;
+      animation: sparkleMove 5s linear infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes sparkleMove {
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-800px) scale(0.5); opacity: 0; }
+    }
+
+    /* ---------- MOBILE RESPONSIVE ---------- */
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.5rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 0.5rem; }
+      main { padding: 0.3rem; }
+    }
+
+    @media (max-width: 480px) {
+      header h1 { font-size: 1.2rem; }
+      table { font-size: 0.75rem; }
+      th, td { padding: 0.4rem; }
+      main { padding: 0.2rem; }
+    }
+
+    /* ---------- FLOATING WHATSAPP BUTTON ---------- */
+    #whatsappFloat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      background-color: #25D366;
+      border-radius: 50%;
+      padding: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    #whatsappFloat img {
+      display: block;
+      width: 50px;
+      height: 50px;
+    }
+
+    #whatsappFloat:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🎇 Navisha Fireworks 🎇</h1>
+  </header>
+  <p style="text-align: center;">select quantity and click on the WhatsApp to order ur package</p>
+  <main>
+    <table id="fireworksTable">
+      <thead>
+        <tr>
+          <th>Code No</th>
+          <th>Item Name</th>
+          <th>Amount</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will appear here -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>🪔 Wishing You a Sparkling & Safe Diwali 🪔</p>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="#" id="whatsappFloat" target="_blank" title="Order via WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+
+  <script>
+    // ---------- LOAD JSON DATA ----------
+    fetch('fataka.json')
+      .then(response => response.json())
+      .then(data => {
+        const tableBody = document.querySelector('#fireworksTable tbody');
+        data.forEach(item => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${item["CODE NO"]}</td>
+            <td>${item["NAME "]}</td>
+            <td>${item["AMOUNT "]}</td>
+            <td><input type="number" min="0" value="0"></td>
+          `;
+          tableBody.appendChild(row);
+        });
+      })
+      .catch(error => console.error('Error loading JSON:', error));
+
+    // ---------- RANDOM SPARKLES ----------
+    const createSparkle = () => {
+      const sparkle = document.createElement('div');
+      sparkle.classList.add('sparkle');
+      sparkle.style.left = Math.random() * window.innerWidth + 'px';
+      sparkle.style.top = window.innerHeight + 'px';
+      sparkle.style.animationDuration = 3 + Math.random() * 3 + 's';
+      sparkle.style.width = sparkle.style.height = Math.random() * 6 + 4 + 'px';
+      document.body.appendChild(sparkle);
+      setTimeout(() => sparkle.remove(), 6000);
+    };
+    setInterval(createSparkle, 300);
+
+    // ---------- WHATSAPP FLOAT BUTTON ----------
+    document.getElementById('whatsappFloat').addEventListener('click', () => {
+      const rows = document.querySelectorAll('#fireworksTable tbody tr');
+      let message = 'Hello! I want to order the following fireworks:\n';
+      let hasOrder = false;
+
+      rows.forEach(row => {
+        const itemName = row.cells[1].innerText;
+        const quantity = row.querySelector('input').value;
+        if (quantity > 0) {
+          message += `- ${itemName} (Qty: ${quantity})\n`;
+          hasOrder = true;
+        }
+      });
+
+      if (!hasOrder) {
+        alert('Please select quantity for at least one item.');
+        return;
+      }
+
+      const phone = '919876543210'; // Replace with your WhatsApp number
+      const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    });
+  </script>
+</body>
+</html>
